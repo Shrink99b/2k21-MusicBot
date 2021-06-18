@@ -19,15 +19,15 @@ async def start(_, message: Message):
                 ],
                 [
                     InlineKeyboardButton(
-                        "Creater⚡️", url="https://t.me/David99q"
+                        "Creater⚡️", url="https://t.me/LoveIsAslowPoision"
                     ),
                     InlineKeyboardButton(
-                        "Ravan102030⚡️", url="https://t.me/Ravan102030"
+                        "Ravan102030⚡️", url="https://t.me/LoveIsAslowPoision"
                     )
                 ],
                 [
                     InlineKeyboardButton(
-                        "Add To Your Group⚡️", url="https://t.me/W2HMusicBot?startgroup=true"
+                        "Add To Your Group⚡️", url="https://t.me/LoveIsAslowPoision"
                     )
                 ]
             ]
