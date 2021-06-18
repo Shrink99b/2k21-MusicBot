@@ -491,7 +491,7 @@ async def play(_, message: Message):
                 [
                    InlineKeyboardButton(
                        text="⭐ Support ⭐",
-                       url='https://t.me/ADDICT_ADITYA')
+                       url='https://t.me/LoveIsAslowPoision')
                 ],
                 [       
                     InlineKeyboardButton(
@@ -623,7 +623,7 @@ async def deezer(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="⭐ Support ⭐",
-                   url='https://t.me/addict_aditya')
+                   url='https://t.me/LoveIsAslowPoision')
              ],
              [       
                  InlineKeyboardButton(
@@ -756,7 +756,7 @@ async def jiosaavn(client: Client, message_: Message):
              [
                InlineKeyboardButton(
                    text="⭐ Support ⭐",
-                   url='https://t.me/W2HSupport')
+                   url='https://t.me/LoveIsAslowPoision')
              ],
              [       
                InlineKeyboardButton(
