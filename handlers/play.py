@@ -399,7 +399,7 @@ async def m_cb(b, cb):
 @Client.on_message(command("play") & other_filters)
 async def play(_, message: Message):
     global que
-    lel = await message.reply("🔄 **Processing Via ✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯**")
+    lel = await message.reply("🔄 **Processing Via ✯෴@LoveIsAslowPoision෴✯**")
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
 
@@ -460,7 +460,7 @@ async def play(_, message: Message):
     for i in message.command[1:]:
         query += ' ' + str(i)
     print(query)
-    await lel.edit("🎵 **Processing Via ✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯**")
+    await lel.edit("🎵 **Processing Via ✯෴@LoveIsAslowPoision෴✯**")
     ydl_opts = {"format": "bestaudio[ext=m4a]"}
     try:
         results = YoutubeSearch(query, max_results=1).to_dict()
@@ -532,7 +532,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="▶️ **Playing** song requested by {} via ෴𝙰𝚍𝚒𝚝𝚢𝚊෴ ".format(
+        caption="▶️ **Playing** song requested by {} via ෴ @LoveIsAslowPoision෴ ".format(
         message.from_user.mention()
         ),
     )
@@ -547,7 +547,7 @@ async def play(_, message: Message):
 )
 async def deezer(client: Client, message_: Message):
     global que
-    lel = await message_.reply("🔄 **Processing Via ✯෴𝙰𝚍𝚒𝚝𝚢𝚊෴✯**")
+    lel = await message_.reply("🔄 **Processing Via ✯෴@LoveIsAslowPoision෴✯**")
     administrators = await get_administrators(message_.chat)
     chid = message_.chat.id
     try:
